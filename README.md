@@ -81,7 +81,21 @@ The server will run on `http://localhost:8080` by default.
 ## Project Structure
 
 ```
-c:\Users\admin\Desktop\demo
+express-mongodb-starter
+├── app.js                  # Main application file
+├── routes
+│   └── user.routes.js      # User-related routes
+├── models
+│   └── user.model.js       # Mongoose schema for User
+├── middleware
+│   └── error.middleware.js # Centralized error handling
+├── utils
+│   ├── validateFields.js   # Utility for field validation
+│   └── createError.js      # Utility for creating errors
+├── constants
+│   └── httpStatusCodes.js  # HTTP status code constants
+├── package.json            # Project metadata and dependencies
+└── README.md               # Project documentation
 ├── app.js                  # Main application file
 ├── routes
 │   └── user.routes.js      # User-related routes
