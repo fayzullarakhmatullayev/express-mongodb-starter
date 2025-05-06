@@ -21,7 +21,7 @@ This is a starter project for building RESTful APIs using **Express.js** and **M
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:fayzullarakhmatullayev/express-mongodb-starter.git
    cd express-mongodb-starter
    ```
 
